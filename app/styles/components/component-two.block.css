@@ -1,4 +1,5 @@
 @block-reference other from "./component-one.block.css";
+@block-reference my-apple from "../green-apple.block.css";
 
 :scope {
   extends: "other";

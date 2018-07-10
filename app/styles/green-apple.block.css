@@ -1,0 +1,10 @@
+@block-reference red-apple-pie from "addon-a/styles/apple-pie.block.css";
+
+:scope {
+  implements: "red-apple-pie";
+  color: green;
+}
+
+.stem {
+  color: purple;
+}
