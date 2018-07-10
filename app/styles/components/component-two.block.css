@@ -1,0 +1,9 @@
+@block-reference other from "./component-one.block.css";
+
+:scope {
+  extends: "other";
+}
+
+.bar {
+  color: yellow;
+}
